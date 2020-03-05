@@ -10,6 +10,18 @@ Thanks to https://baconipsum.com/</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>Kim Hjort Madsen</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/xobsdk/baconipsum-nuget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/xobsdk/baconipsum-nuget</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>bacon_logo.jpg</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\bacon_logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
