@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kim Hjort</Authors>
+    <Description>This will make textplaceholders fun again. Thanks to https://baconipsum.com/</Description>
+    <PackageTags>bacon;ipsum;baconipsum;xobsdk;placeholder;text;funny</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
