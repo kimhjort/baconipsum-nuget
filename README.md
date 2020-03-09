@@ -39,6 +39,9 @@ To create placeholder texts use
 
 //Handles number of paragraphs and sentences
 @BaconIpsum.MakeBacon(int paras, int sentences)
+
+//Gives an image url
+@BaconIpsum.Baconmockup(int width, int height)
 ```
 
 ## Sample
