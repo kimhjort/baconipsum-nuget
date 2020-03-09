@@ -4,7 +4,7 @@
 
 The most delicous way of handling placeholder text and images!
 
-Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it's tasty!
 
 Thanks to [baconipsum.com](https://baconipsum.com/)
 
@@ -35,10 +35,10 @@ To create placeholder texts use
 @BaconIpsum.MakeBacon();
 
 //Handles number of paragraphs
-@BaconIpsum.MakeBacon(paras);
+@BaconIpsum.MakeBacon(int paras);
 
 //Handles number of paragraphs and sentences
-@BaconIpsum.MakeBacon(paras, int sentences)
+@BaconIpsum.MakeBacon(int paras, int sentences)
 ```
 
 ## Sample
@@ -55,6 +55,12 @@ I have included a small sample project. The project is based on ASP.net core 3.1
 
 ## Contribute
 
-<https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project>
+<https://github.com/firstcontributions/first-contributions>
+
+## Sync to github - what the
+
+Yeah, so my private repo is based on azuredev ops og the script helps me keep the github repo up to date.
+
+Use at own risk!
 
 [logo]: bacon_logo.jpg "bacon ipsum logo"
