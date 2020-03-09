@@ -1,29 +1,60 @@
-# ProjectName
+# Bacon Ipsum
 
-Small project description here.
+![logo]
+
+The most delicous way of handling placeholder text and images!
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+
+Thanks to [baconipsum.com](https://baconipsum.com/)
 
 ## Introduction
 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+This packages is gonna be the biggest sausage in your toolkit. Use is to create tasty placeholder text and nice images of bacon.
 
 ## Getting Started
 
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+Install from <https://nuget.org>
+
+```cmd
+Install-Package baconipsum
+```
 
 ## Usage
 
-TODO: Describe and show how to build your code and run the tests.
+Go to `Shared/viewImports`
 
-## FAQ
+```csharp
+@using baconipsum
+```
 
-TODO: Describe often asked questions and answers.
+To create placeholder texts use
 
-Question|Answer|Notes
------|-----|-----
-Powershell failes at running the script|Check if you're inside the correct working directory|Working directory is the folder on the local computer where the powershell file is located
-Powershell failes at running the script|Check if you're inside the correct working directory|Working directory is the folder on the local computer where the powershell file is located
-Powershell failes at running the script|Check if you're inside the correct working directory|Working directory is the folder on the local computer where the powershell file is located
+```csharp
+// Makes the default text
+@BaconIpsum.MakeBacon();
+
+//Handles number of paragraphs
+@BaconIpsum.MakeBacon(paras);
+
+//Handles number of paragraphs and sentences
+@BaconIpsum.MakeBacon(paras, int sentences)
+```
+
+## Sample
+
+I have included a small sample project. The project is based on ASP.net core 3.1
+
+```html
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <img src="@BaconIpsum.Baconmockup(200, 100)" alt="bacon" class="img-fluid" />
+    <p>@BaconIpsum.MakeBacon()</p>
+</div>
+```
 
 ## Contribute
 
-TODO: Explain how other users and developers can contribute to make your code better.
+<https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project>
+
+[logo]: bacon_logo.jpg "bacon ipsum logo"
